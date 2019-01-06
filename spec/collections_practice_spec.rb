@@ -72,6 +72,8 @@ array = [7,8,6,9,3,1,2]
  def sort_array_asc (array)
     array.sort do |a,b| 
  a <=> b 
+end
+end
 
 
 
