@@ -82,13 +82,7 @@ def sort_array_desc (array)
   end
 end
 
-array = [8,10,11,4,5]
-def sort_array_char_count (array)
-  array.sort do |a,b| 
-    a <=> b
-  end
-end
-
+ 
 
 
 
