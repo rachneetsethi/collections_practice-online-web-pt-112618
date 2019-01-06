@@ -106,11 +106,17 @@ array = ["naina", "renu", "jassi"]
 def kesha_maker (array) 
   change = []
   array.each do |name| 
-    change << name.size-1 
+    change << name.size-1 $
   end
 end
 
-  
+array = ["anna", "naina", "anaconda"]
+  def find_a (array)
+    array.start_with?("a"). select |name| 
+    "This is it #{name}"
+  end
+end
+
   
   
 
