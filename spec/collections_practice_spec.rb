@@ -75,6 +75,13 @@ array = [7,8,6,9,3,1,2]
 end
 end
 
+array = [8,10,11,4,5]
+def sort_array_desc 
+  array.sort.reverse do |a,b| 
+    a <=> b
+  end
+end
+
 
 
 
