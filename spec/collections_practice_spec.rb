@@ -112,7 +112,7 @@ end
 
 array = [1,3,5,7]
 def sum_array (array)
-  
+  array.inject ()
 
   
   
