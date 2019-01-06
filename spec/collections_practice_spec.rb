@@ -76,7 +76,7 @@ end
 end
 
 array = [8,10,11,4,5]
-def sort_array_desc 
+def sort_array_desc (array)
   array.sort.reverse do |a,b| 
     a <=> b
   end
