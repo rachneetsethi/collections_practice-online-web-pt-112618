@@ -82,7 +82,7 @@ def sort_array_desc (array)
   end
 end
 
- 
+ array = [8,10,11,4,5]
 
 
 
