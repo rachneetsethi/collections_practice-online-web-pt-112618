@@ -90,6 +90,28 @@ end
  end
  
 def swap_elements_from_to (array, index, destination_index)
+  swap_elements_from_to(["a", "b", "c"],0,2). sort do |a,b|
+    a <=> b 
+  end
+end
+
+array = [4,2,6,4,9]
+def reverse_array (array)
+  array.sort.reverse do |a,b| 
+    a <=> b
+  end
+end
+
+array = ["naina", "renu", "jassi"]
+def kesha_maker (array) 
+  change = []
+  array.each do |name| 
+    change << name.size-1 
+  end
+end
+
+  
+  
   
 
 
