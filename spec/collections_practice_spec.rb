@@ -112,7 +112,7 @@ end
 
 array = ["anna", "naina", "anaconda"]
   def find_a (array)
-    array.start_with?("a"). select |name| 
+    array.start_with?("a"). select do |name| 
     "This is it #{name}"
   end
 end
