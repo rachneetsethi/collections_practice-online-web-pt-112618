@@ -110,12 +110,9 @@ def kesha_maker (array)
   end
 end
 
-array = ["anna", "naina", "anaconda"]
-  def find_a (array)
-     select do |name| 
-    name.start_with?("a")
-  end
-end
+array = [1,3,5,7]
+def sum_array (array)
+  
 
   
   
