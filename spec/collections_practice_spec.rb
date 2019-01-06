@@ -67,3 +67,7 @@ describe 'collections practice' do
     end
   end
 end
+
+array = [7,8,6,9,3,1,2]
+def sort_array_asc (array)
+  
